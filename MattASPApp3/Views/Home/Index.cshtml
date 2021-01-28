@@ -1,0 +1,43 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewBag.Title = "Assignment #2";
+    Layout = "_Layout";
+}
+
+
+<div style="margin:50px">
+    <img src="img/grill.png" style="height:200px;" />
+    <p>
+        THE REAL ONE!! I hope to learn how host an asp.net project on multiple platforms (aws, azure etc.). I hope I learn how to create an api. I hope to get a refresher course on using token authentication.
+    </p>
+    <ul class="list-unstyled">
+        <li>Entreprenuer</li>
+        <li>Engagement Lead</li>
+        <li>Product Manager</li>
+    </ul>
+</div>
+
+<div style="margin:50px">
+    <h1>Grade Calculator</h1>
+    <form class="form-control-plaintext">
+        <label>Assignments</label>
+        <input type="number" id="Assignments" />
+        <br />
+        <label>Group Projects</label>
+        <input type="number" id="Projects" />
+        <br />
+        <label>Quizzes</label>
+        <input type="number" id="Quizzes" />
+        <br />
+        <label>Exams</label>
+        <input type="number" id="Exams" />
+        <br />
+        <label>INTEX</label>
+        <input type="number" id="INTEX" />
+        <br />
+        <input type="submit" value="What if Calculator" id="submit" />
+    </form>
+    <h1 id="expected_grade">Expected Grade: </h1>
+</div>
